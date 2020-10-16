@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+
+
+
+ 
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {font-size: 30px;}
+
+header {
+    display: inline;
+}
+
+main {
+    
+    padding: 15%;
+    padding-top: 3%;
+    overflow: auto  ;
+}
+
+.jumbotron {
+    font-size: 25px;
+    overflow: auto;
+    padding: 5%;
+    background-color:#ffc83f;
+    text-align: center;
+    
+}
+
+
+
+#content { 
+    float: left;
+    width: 75%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 25px;
+}
+
+nav {
+    background-color: #ffbf00;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    padding-right: 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li {
+    display: inline-block;
+    
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 30px;
+}
+nav a:hover {
+    font-weight: bold;
+    color: white;
+}
+
+
+
+.card {
+    background-color: #fffdf5;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.3);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 30px;}
+
+.image-content {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile {
+    background-color: #fffdf5;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.3);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 30px;}
+
+footer {
+    padding: 20px;
+    color: black;
+    background-color: #e0e0e0;
+    
+ }
+
+footer a {
+     text-decoration: none;
+     color: black;
+    
+ }
+
+ footer p {
+     text-align: center;
+ }
+
+footer li {
+     display: inline;
+     list-style-type: none;
+     padding: 10px
+ }
+
+ footer ul {
+     text-align: center;
+     padding: 0;
+     margin: 0;
+ }
+
+.profile-setyadi {width: 100%;}
+
+ 
+
+ 
+.profile-imga { 
+     width: 100%;}
+
+
+aside p {
+    font-size: 100%;
+}
+
+
+figcaption {
+    font-size: 10px;
+    
+}
+
+figure {
+    text-align: center;
+}
+
+.adi {
+    font-size: 70%;
+    text-align: left;
+}
+
+tr {
+    padding: 20px;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+        #content,
+        aside {
+            width: 100%;
+            padding: 0;
+
+        }
+     }
+
+
+@media screen and (max-width: 1000px) {
+        .jumbotron h1
+         {
+            font-size: 22px;
+
+        }
+     }
+
+
+@media screen and (max-width: 500px) {
+         .navigasi li
+         {
+            font-size: 30px;
+            padding: 3px;
+            overflow: auto;
+        }
+     }
+
+
+@media screen and (max-width: 500px) {
+        nav
+        {
+           padding: 1px;
+       }
+    }
+
+
+
+
+
